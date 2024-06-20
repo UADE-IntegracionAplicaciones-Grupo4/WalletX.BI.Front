@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # - name: Checkout code
-      #   uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
       - name: Set up Node.js
         uses: actions/setup-node@v2
@@ -26,7 +26,7 @@ jobs:
         run: npm run build
 
       - name: Upload to S3
-        uses: UADE-IntegracionAplicaciones-Grupo4/WalletX.BI.Front@main
+        uses: /WalletX.BI.Front@master
         with:
           args: --acl public-read
         env:
