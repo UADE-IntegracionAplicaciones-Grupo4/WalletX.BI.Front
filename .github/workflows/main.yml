@@ -26,7 +26,7 @@ jobs:
         run: npm run build
 
       - name: Upload to S3
-        uses: UADE-IntegracionAplicaciones-Grupo4/WalletX.BI.Front@master
+        uses: UADE-IntegracionAplicaciones-Grupo4/WalletX.BI.Front@main
         with:
           args: --acl public-read
         env:
