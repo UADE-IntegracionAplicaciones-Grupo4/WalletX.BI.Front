@@ -1,6 +1,5 @@
 .hero {
     height: 70vh;
-    background: url('../images/logo.jpg') center no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -17,8 +16,9 @@
 }
 
 .hero p {
-    font-size: 1.2rem;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo claro semitransparente */
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .hero button {
