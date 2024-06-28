@@ -17,7 +17,7 @@ function Home() {
                     title="XCoin-XWallet"
                     width="600"
                     height="373.5"
-                    src="https://app.powerbi.com/view?r=eyJrIjoiNDhkZDBkMTItNjBjZi00ZDRhLTg2ODItZDZiNzM2Y2JlODM2IiwidCI6IjFjZmQyZGRmLThjMjctNDljZi1hNzU2LWI5NWQ4YzhmZTc3MyJ9&pageName=9ee961e09605e1963126"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiOGExOTI4MGItYWNjMy00ZjU4LWEwZjEtODIyYjg1NjBmYzMzIiwidCI6IjFjZmQyZGRmLThjMjctNDljZi1hNzU2LWI5NWQ4YzhmZTc3MyJ9&pageName=4cea8d13766659e26944"
                     frameborder="0"
                     allowFullScreen="true">
 
